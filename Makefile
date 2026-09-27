@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -O0 -g -Wall -Wextra
-TARGET = erim_toy
+TARGET = minierim
 
 $(TARGET): minierim.c
 	$(CC) $(CFLAGS) -o $(TARGET) minierim.c
